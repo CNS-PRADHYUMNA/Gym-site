@@ -1,0 +1,191 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+nav{
+   padding: 0 !important;
+
+}
+
+
+a.navbar-brand {
+    font-size: 2.5em;
+    margin: 5px;
+    color: rgb(0, 0, 0) !important;
+    
+    
+}
+a.nav-link{
+    color: rgb(0, 0, 0);
+   font-weight: 700;
+}
+
+.navbar-nav .nav-item {
+ 
+ 
+    font-size: 2em;
+    margin: 10px;
+    transition: 1s;
+}
+.navbar-nav .nav-item :hover{
+
+    background-color: #fcf050;
+    font-weight: 700;
+    border-radius: 15px;
+    transform: scale(1.2,1.2);
+ 
+ 
+}
+
+@media (min-width: 992px) {
+  
+    .navbar-nav {
+        flex-direction: column; 
+        width: 100%; 
+        justify-content: space-evenly;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0;
+    }
+    #intro{
+        font-size: 1.5em;
+        margin-top: 100px;
+    }
+
+    #profile_img{
+        margin-top: 100px;
+        height: min-content;
+        width: 400px;  
+    }
+   
+    
+}
+#intro1{
+    font-size: 1.5em;
+    margin-top: 5px;
+    padding: 25px;
+}
+#intro{
+    font-size: 1.5em;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#profile_img{
+
+    margin: 70px 50px 50px 50px;
+    height: min-content;
+    width: 600px;  
+    border-radius: 10%;
+}
+
+#course{
+    margin-top: 50px;
+    /* background-color: #dda15e; */
+    background-color: #f39f3e;
+    padding: 30px;
+}
+
+#foot{
+    padding: 1px;
+    /* background-color: #606c38; */
+    background-color: #fac234;
+   
+}
+#logo2{
+    border-radius: 50%;
+    height: 40px;
+}
+#para1{
+    background-color: #fd7275;
+ 
+}
+
+#para2 {
+
+    /* background-color: #020405; */
+    font-size: 1.2em;
+    color: rgb(114, 0, 0);
+    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+}
+#para3{
+    background-color: #ffc8dd;
+    padding: 50px;
+}
+#course1{
+    margin-top: 50px;
+    background-color: #a9def9;
+    padding: 30px;
+}
+#foot1{
+    padding: 1px;
+    /* background-color: #606c38; */
+    background-color: #e9edc9;
+   
+}
+.custom-card {
+    font-size: 1.2em;
+    background-color: #f0f0f0; /* Light pale grey background color */
+}
+
+table {
+    background-color: #f1bdbd; /* Light grey background for the table */
+    font-size: 1.8em; /* Increased font size */
+  }
+
+  th, td {
+    padding: 20px !important; /* Increased padding for better spacing */
+    border-bottom: 2px solid #ccc; /* Border between rows */
+  }
+
+  th {
+    background-color: #0074cc; /* Dark blue header background */
+    color: #fff; /* White header text color */
+    border-top: 2px solid #0056b3; /* Top border for header */
+  }
+  p{
+    font-size: 1.5em !important;
+
+  }
