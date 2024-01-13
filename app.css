@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    background-color: rgb(224, 224, 224);
 }
 ol, ul {
 	list-style: none;
@@ -45,6 +46,7 @@ table {
 
 nav{
    padding: 0 !important;
+   
 
 }
 
@@ -70,10 +72,9 @@ a.nav-link{
 }
 .navbar-nav .nav-item :hover{
 
-    background-color: #fcf050;
+    color: #ee231c;
     font-weight: 700;
-    border-radius: 15px;
-    transform: scale(1.2,1.2);
+    transform: scale(1.1,1.1);
  
  
 }
@@ -102,10 +103,50 @@ a.nav-link{
    
     
 }
+
 #intro1{
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-top: 5px;
+    margin-bottom: 5px;
     padding: 25px;
+   
+   
+}
+.button-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.rounded-disabled-button {
+    color: rgb(255, 254, 254);
+    border: none;
+    padding: 10px 15px;
+    margin: 8px;
+    border-radius: 20px;
+    background-color: #272121;
+    cursor: not-allowed;
+}
+
+.start-journey-button {
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #4caf50; /* Example button color */
+    color: white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+    width: 50%;
+}
+
+.start-journey-button:hover {
+    color: black;
+    background-color: #27af2e; /* Darker color on hover */
 }
 #intro{
     font-size: 1.5em;
@@ -165,6 +206,51 @@ a.nav-link{
     background-color: #e9edc9;
    
 }
+
+.stars {
+    color: #FFD700; /* Gold color for stars */
+    font-size: 1.5em;
+}
+
+.review-text {
+    margin-top: 10px;
+}
+.card {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    margin-bottom: 10px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
 .custom-card {
     font-size: 1.2em;
     background-color: #f0f0f0; /* Light pale grey background color */
@@ -189,3 +275,62 @@ table {
     font-size: 1.5em !important;
 
   }
+  section {
+    padding: 50px 0;
+}
+
+/* Style for Accordion Buttons */
+.accordion-button {
+    background-color: #000000;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Style for Active Accordion Button */
+.accordion-button:not(.collapsed) {
+    background-color: #e04f4f;
+    color: white;
+  
+}o
+
+/* Style for Accordion Body */
+.accordion-body {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 15px;
+}
+
+/* Style for Strong Tags Inside Accordion Body */
+.accordion-body strong {
+    color: #000;
+}
+
+/* Style for Paragraphs Inside Accordion Body */
+.accordion-body p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style for Bullet Points Inside Accordion Body */
+.accordion-body ul {
+    list-style-type: square;
+    margin-bottom: 10px;
+}
+
+/* Style for List Items Inside Accordion Body */
+.accordion-body li {
+    margin-left: 20px;
+}
+
+/* Style for Accordion Collapse Icon */
+.accordion-button::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    float: right;
+    color: #fff;
+}
+
+.accordion-button.collapsed::after {
+    content: '\25B6'; /* Unicode character for right arrow */
+    color: #fff;
+}
